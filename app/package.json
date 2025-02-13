@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-project",
+  "name": "app",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,11 +9,15 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@module-federation/rsbuild-plugin": "^0.8.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.2.4",
-    "@rsbuild/plugin-vue": "^1.0.5",
+    "@rsbuild/plugin-react": "^1.1.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "typescript": "^5.7.3"
   }
 }
